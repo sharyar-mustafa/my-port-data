@@ -1,0 +1,97 @@
+.nav{
+  font-family: 'Poppins', sans-serif;
+    /* padding: 12px 48px; */
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 9s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+      
+@keyframes shine{
+    0%{
+      background-position: (0)}
+
+    60%{
+      background-position: 180px;}
+
+    100%{
+      background-position: 180px};
+}
+.navbar-toggler{
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 48px;
+
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+@keyframes shine{
+    0%{
+      background-position: (0)}
+
+    60%{
+      background-position: 180px;}
+
+    100%{
+      background-position: 180px};
+}
+
+.hedding{
+    background-color:rgba(17,24,39);
+    color: white;
+    display: flex;
+    padding-top: 10vh;
+    /* background-image: url(./Pic/EL.svg); */
+    background-repeat: no-repeat;
+}
+.h-h1{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.h-div{
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.D-img{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+ 
+}
+
+.D-img>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+.git{
+    background-color: white;
+    border-radius: 100px;
+}
+
+.type{
+    font-size: 2vh;
+}
+
